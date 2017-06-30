@@ -1,0 +1,12 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "Testing Angular",
+  "main": "index.js",
+
+  "author": "Bill Sullivan",
+  "license": "GPL-2.0",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
+  }
+}
